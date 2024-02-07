@@ -1,0 +1,26 @@
+#root {
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+}
+
+#container {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+#controls {
+  display: flex;
+  gap: 50px;
+}
+
+.controllers {
+  display: flex;
+  flex-direction: row;
+  gap: 20px;
+}
+
+#session-length, #break-length, #timer-label, #time-left, #main-title, #break-label, #session-label {
+  font-size: 1.6em;
+}
